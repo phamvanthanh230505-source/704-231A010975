@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.input-area {
+  margin-bottom: 20px;
+}
+
+.todo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.todo-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  align-items: center;
+}
+
+button {
+  padding: 4px 8px;
+}

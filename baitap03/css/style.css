@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 6px 12px;
+  margin-left: 5px;
+}
+
+#fireworks {
+  margin-top: 30px;
+}
+
+.firework {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  margin: 10px auto;
+  animation: explode 1s ease-out forwards;
+}
+
+@keyframes explode {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(6);
+    opacity: 0;
+  }
+}
